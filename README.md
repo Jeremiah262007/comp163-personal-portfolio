@@ -115,4 +115,4 @@ print("\n=== PERSONAL DEVELOPMENT ===")
 print(f"Current Skills: {current_skills}")
 print(f"Learning Goals: {skills_to_learn}")
 print(f"Career Interests: {career_interests}")
-pr
+
