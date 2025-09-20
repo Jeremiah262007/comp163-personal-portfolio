@@ -108,11 +108,8 @@ print(f"Cumulative GPA: {cumulative_gpa}")
 print(f"Weekly Study Time: {total_study_hours} hours")
 print(f"Academic Investment: ${study_cost_per_hour} per study hour")
 print("\nCurrent Courses:")
-for course in current_courses:
-    print(f"{course} - {course_credits[course]} credits - {course_professors[course]} - {course_rooms[course]}")
-
-print("\n=== PERSONAL DEVELOPMENT ===")
-print(f"Current Skills: {current_skills}")
-print(f"Learning Goals: {skills_to_learn}")
-print(f"Career Interests: {career_interests}")
+print(f"{current_courses[0]} - {course_credits['COMP 163']} credits - {course_professors['COMP 163']} - {course_rooms['COMP 163']}")
+print(f"{current_courses[1]} - {course_credits['MATH 131']} credits - {course_professors['MATH 131']} - {course_rooms['MATH 131']}")
+print(f"{current_courses[2]} - {course_credits['GEEN 111']} credits - {course_professors['GEEN 111']} - {course_rooms['GEEN 111']}")
+print(f"{current_courses[3]} - {course_credits['HIS 206']} credits - {course_professors['HIS 206']} - {course_rooms['HIS 206']}")
 
